@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.19.0 (unreleased)
+
+- Added support for generating multiple kinds of feeds at once
+- Changed config options named `generate_feed` to `generate_feeds` (both in config.toml and in section front-matter)
+- Changed config option `feed_filename: String` to `feed_filenames: Vec<String>`
+
 ## 0.18.0 (2023-12-18)
 
 - Fix LFI in `zola serve`
