@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+- Added support for multiple feeds
+- Changed config options named `generate_feed` to `generate_feeds`
+- Changed config option `feed_filename: String` to `feed_filenames: Vec<String>`
+
 ## 0.18.0 (2023-12-18)
 
 - Fix LFI in `zola serve`
